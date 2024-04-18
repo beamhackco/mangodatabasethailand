@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Prompt", sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body h1 h2 span label {
+  transition: all 0.5s ease 0s;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #016a70;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #004447;
+}
+
+#btnFill:hover {
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0);
+}
+
+.active {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+#card:hover {
+  box-shadow: 3px 3px 0px 0px rgb(255, 222, 33);
+}
+
+.input_container {
+  border: 1px solid #e5e5e5;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #fff;
+  color: #000;
+  border: 0px;
+  border: 1px solid #e5e5e5;
+  padding: 10px 15px;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #eee;
+  border: 0px;
+  border: 1px solid #e5e5e5;
+}
+
+.custom-shape-divider-bottom-1709307190 {
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1709307190 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 89px;
+}
+
+.custom-shape-divider-bottom-1709307190 .shape-fill {
+  fill: #016a70;
+}
