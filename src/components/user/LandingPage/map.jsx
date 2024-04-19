@@ -25,7 +25,7 @@ const map = () => {
 
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyCF6xu4nAbV5IKWqAy4meimNCLWd4U1zvE",
+    googleMapsApiKey: "Close_your_eyes_blud",
     language: "th",
   });
 
